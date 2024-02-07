@@ -1,0 +1,237 @@
+body {
+    background: linear-gradient(to right, #0a0a2c, #141436);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+  }
+#root{
+    background-color: rgb(10, 10, 44);
+    /* height: 100vh; */
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(10, 10, 44);
+    height: 60px; /* Adjust height as needed */
+    color: white;
+  }
+  
+  .nav-wrapper .nav-link {
+    text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-wrapper .nav-link:hover {
+    text-decoration: underline;
+    color: yellow;
+  }
+  
+   
+  .nav-wrapper .nav-link.active {
+    color: yellow;
+  }
+ 
+  .nav-wrapper div {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .home-wrapper {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+ 
+  .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .circle img {
+    width: 100%;
+    height: auto; 
+    border-radius: 50%;
+  }
+  .paragraph {
+    max-width: 100%; 
+  padding-left: 20px;
+    margin-top: 20px;
+  }
+  .home-wrapper h1{
+    font-size: 40px;
+}
+.paragraph h2{
+    font-size: 30px;
+  }
+  .animated-text {
+    overflow: hidden;  
+    white-space: nowrap;  
+    margin: 0;  
+    letter-spacing: 0.15em;  
+    display: inline-block; 
+    animation: typing 3s steps(20, end), blink-caret 0.5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
+  /* .text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  }
+
+  .text1{
+    position: relative;
+
+  } */
+
+  .about {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about h2 {
+    color: #333; 
+  }
+  
+  .about p {
+    font-size: 16px;  
+    line-height: 1.6; 
+    color: #555;  
+  }
+  
+  .about a {
+    color: #007bff;  
+    text-decoration: none; 
+  }
+  
+  .about a:hover {
+    text-decoration: underline; 
+  }
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around; 
+    align-items: center;  
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-wrapper a{
+    color: white;
+  }
+
+  .project-circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+  }
+
+  .project-circle img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  /* .name{
+    font-size: 40px;
+  } */
+  
+  @media (min-width: 768px) {
+    .home-wrapper {
+      padding: 40px;
+    }
+  
+    .container1 {
+      margin-top: 40px;
+    }
+  
+    .circle {
+      max-width: 400px;
+    }
+  
+    .paragraph {
+      max-width: 400px;
+      padding-left: 40px;
+    }
+  
+    .about {
+      width: 60%;
+    }
+  
+    .project-wrapper {
+        padding: 40px;
+      }
+    
+      .project-wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    
+      .cont {
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
+    
+      .project-circle {
+        margin-bottom: 0;
+        max-width: 400px;
+      }
+  }
+ 
+  
