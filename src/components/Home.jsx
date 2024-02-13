@@ -25,7 +25,7 @@ const Home = () => {
     As a Software Testing Developer, I am proficient in Java, JavaScript, and various web technologies. My hands-on experience includes test automation using tools like Selenium WebDriver, TestNG, Cucumber, Rest Assured for APIs, JDBC library, and SQL queries to test PostgreSQL databases.
   </p>
   <p>
-    I have a solid understanding of the complete Software Development Life Cycle (SDLC) and Software Testing Life Cycle (STLC). Throughout my career, I have successfully performed Positive, Negative, Front-end, Back-end tests, and have expertise in Smoke and Regression testing.
+    I have a solid understanding of the complete Software Development Life Cycle (SDLC) and Software Testing Life Cycle (STLC). Throughout my learning path, I have successfully performed Positive, Negative, Front-end, Back-end tests.
   </p>
   <p>
     Passionate about innovation in software development, I have developed and maintained Behavior Driven Development Frameworks, applied Page Object Model patterns, and built Test Driven Development and Data-Driven Development frameworks from scratch.
